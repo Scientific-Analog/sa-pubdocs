@@ -100,7 +100,7 @@ You can also co-simulate SPICE netlists with XMODEL testbench toverify the model
 
 ## IC Design Flow with XMODEL
 
-### TOP-DOWN MODELING
+### Top-down modeling
 
 1. Idea  
    ↓  
@@ -108,7 +108,7 @@ You can also co-simulate SPICE netlists with XMODEL testbench toverify the model
    ↓  
 3. Circuit Implementation  
 
-### BOTTOM-UP MODELING
+### Bottom-up modeling
 
 3. Circuit Implementation  
    ↓  
