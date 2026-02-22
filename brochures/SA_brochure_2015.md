@@ -9,7 +9,7 @@ License: "Copyright (c) Scientific Analog, Inc."
 ---
 
 <!-- Page 1 -->
-# XMODEL: The Best Way to Verify Analog Circuits in SystemVerilog
+# XMODEL: The Fastest Analog/Mixed-Signal Simulator in SystemiVerilog
 
 
 <!-- Page 2 -->
