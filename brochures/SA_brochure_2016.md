@@ -100,21 +100,21 @@ You can also co-simulate SPICE netlists with XMODEL testbench toverify the model
 
 ## IC Design Flow with XMODEL
 
-### Top-down modeling
-
-1. Idea  
-   ↓  
-2. Functional Model  
-   ↓  
-3. Circuit Implementation  
-
-### Bottom-up modeling
-
-3. Circuit Implementation  
-   ↓  
-4. Verification Model  
-   ↓  
-5. IC Product
+```
+          1. Idea             ┐
+              │               | Top-Down
+              ▼               | Modeling
+     2. Functional Model      ┘ 
+              │
+              ▼
+ 3. Circuit Implementation    ┐
+              │               | Bottom-Up
+              ▼               | Modeling
+    4. Verification Model     ┘
+              │
+              ▼
+       5. IC Product
+```
 
 
 <!-- Page 4 -->

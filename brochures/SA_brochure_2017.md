@@ -13,6 +13,8 @@ License: "Copyright (c) Scientific Analog, Inc."
 
 
 <!-- Page 2 -->
+## Our Products
+
 * **XMODEL** enables fast and accurate simulation of analog/mixed-signal systems entirely in SystemVerilog.
  
 * **GLISTER** is a graphical user interface of XMODEL and MODELZEN integrated into Cadence® Virtuoso® Schematic Editor.
@@ -30,7 +32,7 @@ License: "Copyright (c) Scientific Analog, Inc."
  * Enjoy 10-1OOx faster speed than other analog functional models (Verilog-A/MS or Real Number Verilog).
  * Verify system-level operation including digital HDL models that are ready for synthesis.
 
-*(XMODEL as Top-Down Tool)*
+*XMODEL as Top-Down Tool*
 
 ## Circuit Designers
 **Compose or auto-generate models for your circuits easily in a schematic-based analog design environment.**
@@ -39,7 +41,7 @@ License: "Copyright (c) Scientific Analog, Inc."
  * Express any analog circuit behaviors in SystemVerilog using circuit-level modeling (CLM).
  * Automatically extract models from any circuits using MODELZEN.
 
-*(XMODEL as Bottom-Up Tool)*
+*XMODEL as Bottom-Up Tool*
 
 ## Verification Engineers
 **Verify chip-level functionality of large-scale systems consisting of both digital and analog components.**
@@ -48,7 +50,7 @@ License: "Copyright (c) Scientific Analog, Inc."
  * Leverage blazingly fast event-driven simulation in a single simulation platform of SystemVerilog.
  * Seamlessly integrate with existing digital verification flows (e.g. UVM) as well as mixed-signal simulation flows.
  
-*(XMODEL as Sign-Off Tool)*
+*XMODEL as Sign-Off Tool*
 
 
 <!-- Page 4 -->
@@ -185,21 +187,21 @@ Either with top-down or with bottom-up models, XMODEL delivers the fastest event
 
 ## IC Design Flow with XMODEL
 
-### Top-down Modeling
-
-1. Idea
-   ↓
-2. Functional Model
-   ↓
-3. Circuit Implementation
-
-### Bottom-up Modeling
-
-3. Circuit Implementation
-   ↓
-4. Verification Model
-   ↓
-5. IC Product
+```
+          1. Idea             ┐
+              │               | Top-Down
+              ▼               | Modeling
+     2. Functional Model      ┘ 
+              │
+              ▼
+ 3. Circuit Implementation    ┐
+              │               | Bottom-Up
+              ▼               | Modeling
+    4. Verification Model     ┘
+              │
+              ▼
+       5. IC Product
+```
 
 
 <!-- Page 8 -->
