@@ -4,7 +4,7 @@ Company: "Scientific Analog, Inc."
 Document_type: "product_brochure"
 Products: ["XMODEL", "GLISTER", "MODELZEN"]
 Year: 2020
-Source: "XMODEL_brochure_202007_ko.pdf"
+Source: "XMODEL_brochure_202011_ko.pdf"
 License: "Copyright (c) Scientific Analog, Inc."
 ---
 
