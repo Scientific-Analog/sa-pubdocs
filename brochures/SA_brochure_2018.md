@@ -56,7 +56,7 @@ XMODEL is an extension to your existing System Verilog simulator such as VCS, NC
 ## XMODEL Simulation Flow
 
 ```
-             Analog Circuit
+      Analog/Mixed-Signal Models
                    │
                    ▼
  ┌────────────────────────────────────┐
@@ -72,13 +72,12 @@ XMODEL is an extension to your existing System Verilog simulator such as VCS, NC
  └────────────────────────────────────┘
                    │
                    ▼
-         Analog Waveform Output
+          Simulation Results
 ```
 
 ## Event-Driven Simulation with XMODEL Functional Models
 
-XMODEL uses revolutionary, patent-pending algorithms to express analog waveforms in functional expressions and compute them efficiently in an event-driven fashion.
-As a result, the functional models composed with XMODEL primitives in SystemVerilog can achieve up to 10~100x speed-up over Verilog-AMS or Real-Number Verilog, which must compute all the values on the waveforms for accurate results.
+XMODEL uses revolutionary, patent-pending algorithms to express analog waveforms in functional expressions and compute them efficiently in an event-driven fashion. As a result, the functional models composed with XMODEL primitives in SystemVerilog can achieve up to 10~100x speed-up over Verilog-AMS or Real-Number Verilog, which must compute all the values on the waveforms for accurate results.
 
 ### XMODEL (Event-Driven)
 
@@ -134,7 +133,7 @@ Automatic generation of analog models is not a dream; it’s a reality! MODELZEN
 ## MODELZEN Conversion Flow
 
 ```
-          SPICE Netlist
+      SPICE/Spectre Netlist
                 │
                 ▼
 ┌──────────────────────────────┐

@@ -61,7 +61,7 @@ XMODEL is an extension to your existing SystemVerilog simulator such as VCS, NC-
 ## XMODEL Simulation Flow
 
 ```
-             Analog Circuit
+      Analog/Mixed-Signal Models
                    │
                    ▼
  ┌────────────────────────────────────┐
@@ -77,7 +77,7 @@ XMODEL is an extension to your existing SystemVerilog simulator such as VCS, NC-
  └────────────────────────────────────┘
                    │
                    ▼
-         Analog Waveform Output
+          Simulation Results
 ```
 
 ## Event-Driven Simulation with XMODEL Functional Models
@@ -139,7 +139,7 @@ Automatic generation for analog models is not a dream; it's a reality! MODELZEN 
 ## MODELZEN Conversion Flow
 
 ```
-          SPICE Netlist
+     SPICE/Spectre Netlist
                 │
                 ▼
 ┌──────────────────────────────┐
