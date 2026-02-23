@@ -44,7 +44,7 @@ License: "Copyright (c) Scientific Analog, Inc."
 *XMODEL as Bottom-Up Tool*
 
 ## Verification Engineers
-** デジタルとアナログの両方のコンポーネントからなる大規模システムのチップレベル機能を検証。
+**デジタルとアナログの両方のコンポーネントからなる大規模システムのチップレベル機能を検証。**
 
  * 例：デジタル較正機能搭載RFトランシーバ、高速I/O搭載プロセッサ、内部発電でのDRAM、…
  * SystemVerilogの単一シミュレーションプラットフォームで、超高速のイベントドリブンシミュレーションを利用。
