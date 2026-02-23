@@ -76,6 +76,7 @@ Can be both fast and accurate thanks to fewer events
 
 ### Other Simulators  
 *(SPICE, Verilog-AMS, Real-Number Verilog)*
+
 Must trade speed for accuracy due to more events required
 
 ```
