@@ -2,7 +2,7 @@
 Title: "Scientific Analog Product Brochure (2017)"
 Company: "Scientific Analog, Inc."
 Document_type: "product_brochure"
-Products: ["XMODEL", "XWAVE", "GLISTER", "XMULAN", "MODELFIT", "MODELZEN", "MODELBOX"]
+Products: ["XMODEL", "GLISTER", "MODELZEN"]
 Year: 2017
 Source: "XMODEL_brochure_201706.pdf"
 License: "Copyright (c) Scientific Analog, Inc."
@@ -84,6 +84,15 @@ XMODEL is an extension to your existing SystemVerilog simulator such as VCS, NC-
 
 XMODEL uses revolutionary, patent-pending algorithms to express analog waveforms in functional expressions and compute them efficiently in an event-driven fashion. As a result, the functional models composed with XMODEL primitives in SystemVerilog can achieve up to 10~100x speed-up over Verilog-AMS or Real-Number Verilog, which must compute all the values on the waveforms for accurate results.
 
+### XMODEL (Event-Driven)
+
+```
+        □  ← events
+       / \
+      /   \
+  □───     ───□
+```
+
 ### Other Simulators  
 *(SPICE, Verilog-AMS, Real-Number Verilog)*
 
@@ -94,14 +103,6 @@ XMODEL uses revolutionary, patent-pending algorithms to express analog waveforms
   ┌───┘      └───┐
 ```
 
-### XMODEL (Event-Driven)
-
-```
-        □  ← events
-       / \
-      /   \
-  □───     ───□
-```
 
 ## Circuit-Level Simulation in SystemVerilog with XMODEL
 
