@@ -16,16 +16,19 @@ https://www.scianalog.com/
 ## Verification Engineers who want to run faster simulation with analog models in SystemVerilog
 
 **XMODEL is the fastest way to run analog simulation in SystemVerilog**
+
 Its unique event-driven algorithm and rich set of primitives make it easy to compose analog models that run 10~100x faster than Real-Number Verilog models.
 
 ## System Architects who’d like to compose analog models without writing codes
 
 **GLISTER lets you build top-down analog models in schematic forms**
+
 With GLISTER, writing analog models is simply drawing schematics with XMODEL primitive symbols in Cadence Virtuoso. No coding is necessary!
 
 ## Circuit Designers who need to write SystemVerilog models for their analog circuits
 
 **MODELZEN can auto-extract bottom-up analog models from your circuits**
+
 With MODELZEN, you can automatically generate correct-by-construction, SPICE-accurate SystemVerilog models from your circuits just with a mouse click.
 
 ## Disclaimers
