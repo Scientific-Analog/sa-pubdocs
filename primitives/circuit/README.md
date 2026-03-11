@@ -1,0 +1,55 @@
+# PRIMITIVE CATEGORY: circuit
+
+This directory contains the reference documentations for XMODEL's circuit primitives, which represent circuit elements.
+
+## Contents
+- cap_idx             : An index-switchable capacitor circuit element.
+- cap_sw              : A switchable capacitor circuit element.
+- cap_var             : A variable capacitor circuit element.
+- capacitor           : A capacitor circuit element.
+- cccs                : A current-controlled current source (CCCS).
+- cccs_sw             : A switchable current-controlled current source (CCCS).
+- ccvs                : A current-controlled voltage source (CCVS).
+- ccvs_sw             : A switchable current-controlled voltage source (CCVS).
+- diode               : A diode circuit element.
+- gm_rect             : A rectified transconductance (Gm) element.
+- iinit               : An initial conditioning element for a branch current.
+- ilimit              : A current limiting element.
+- ilimit_sw           : A switchable current limiting element.
+- impedance           : An impedance circuit element.
+- ind_idx             : An index-switchable inductor circuit element.
+- ind_sw              : A switchable inductor circuit element.
+- ind_var             : A variable inductor circuit element.
+- inductor            : An inductor circuit element.
+- iprobe              : A current probe circuit element.
+- isource             : A current source circuit element.
+- minductor           : An n-port multiple-inductor circuit element.
+- mscale              : A multiplicity factor scaler.
+- mtline              : A multi-conductor, multi-port transmission line.
+- nmosfet             : An n-type MOSFET transistor.
+- nmosfet_idx         : An index-switchable n-type MOSFET transistor.
+- npn                 : An NPN-type bipolar junction transistor.
+- nportres_sw         : A switchable N-port piecewise-linear resistive network.
+- pmosfet             : An p-type MOSFET transistor.
+- pmosfet_idx         : An index-switchable p-type MOSFET transistor.
+- pnp                 : An PNP-type bipolar junction transistor.
+- res_idx             : An index-switchable resistor circuit element.
+- res_sw              : A switchable resistor circuit element.
+- res_var             : A variable resistor circuit element.
+- resistor            : A resistor circuit element.
+- stline              : A generalized multi-conductor, multi-port transmission line with per-port characteristic impedance and split-delay transfer functions.
+- stline_unit         : A unit port of a generalized transmission line with per-port characteristic impedance and split-delay transfer functions.
+- switch              : A switch circuit element.
+- tline               : A single-conductor, two-port transmission line.
+- tline_unit          : A unit port of transmission line.
+- tline_var           : A single-conductor, two-port transmission line with variable delay.
+- transformer         : An ideal transformer circuit element.
+- vccs                : A voltage-controlled current source (VCCS).
+- vccs_sw             : A switchable voltage-controlled current source (VCCS).
+- vcvs                : A voltage-controlled voltage source (VCVS).
+- vcvs_sw             : A switchable voltage-controlled voltage source (VCVS).
+- vinit               : An initial conditioning element for a node voltage.
+- vlimit              : A voltage limiting element.
+- vlimit_sw           : A switchable voltage limiting element.
+- vprobe              : A voltage probe circuit element.
+- vsource             : A voltage source circuit element.

@@ -10,6 +10,7 @@ LLM-based search, indexing, and retrieval.
 ## Contents
 - `/brochures`  : product brochures
 - `/manuals`    : product manuals
+- `/primitives` : primitive references
 - `/papers`     : technical papers
 - `/tutorials`  : tutorials
 - `/appnotes`   : application notes
